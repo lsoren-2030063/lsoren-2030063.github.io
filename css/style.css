@@ -217,7 +217,7 @@ h2 span {
 	font-size:14px;
 	line-height:18px;
 	padding:0;
-	color:#c5027f;
+	color:#ccc;
 }
 .menu li a.active, .menu > li > a:hover {
 	color:#c52e02;
