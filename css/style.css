@@ -214,10 +214,11 @@ h2 span {
 	padding-left:40px;
 }
 .menu li a {
-	font-size:14px;
-	line-height:18px;
+	font-size:15px;
+	line-height:19px;
 	padding:0;
 	color:#ccc;
+	border:1px solid #000;
 }
 .menu li a.active, .menu > li > a:hover {
 	color:#c52e02;
@@ -272,8 +273,8 @@ h2 span {
 /*********************************content*************************************/
 #content {
 	width:100%;
-	padding:15px 0 50px;
-	background:#f2f2f2;
+	padding:16px 0 50px;
+	background:#000;
 	position:relative;
 	z-index:1;
 }
@@ -353,8 +354,8 @@ h6 {
 	width:270px;
 }
 .list-2 dt {
-	font-weight:bold;
-	margin-bottom:5px;
+	font-weight:normal;
+	margin-bottom:7px;
 }
 .list-2 dt, .list-2 dd {
 	width:100%;
@@ -386,11 +387,11 @@ h6 {
 }
 .price-list span {
 	float: right;
-	color: #7f7f7f;
+	color: #0000FF;
 }
 .price-list a {
 	float: left;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #7f7f7f;
 }
 .price-list a:hover {
@@ -398,11 +399,11 @@ h6 {
 	text-decoration:underline;
 }
 .link:hover {
-	text-decoration:underline;
+	text-decoration:none;
 }
 .link-1 {
 	display:inline-block;
-	font-size:14px;
+	font-size:15px;
 	padding-right:8px;
 	background:right 8px no-repeat;
 }
